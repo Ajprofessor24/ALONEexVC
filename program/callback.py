@@ -36,7 +36,7 @@ async def start_set(_, query: CallbackQuery):
                     InlineKeyboardButton("• ᴍᴀɪɴᴛᴀɪɴᴇʀ •", url=f"https://t.me/{OWNER_USERNAME}"),
                     InlineKeyboardButton("• sᴜᴩᴩᴏʀᴛ •", url=f"https://t.me/{GROUP_SUPPORT}")
                 ],[
-                    InlineKeyboardButton("• sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ •", url="ALONE_SUPPORT")
+                    InlineKeyboardButton("• sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ •", url="About_AjeeT")
                 ],
             ]
         ),
@@ -281,7 +281,7 @@ async def user_set(_, query: CallbackQuery):
 • ɪ ᴄᴀɴ ᴩʟᴀʏ ᴀᴜᴅɪᴏs ᴀɴᴅ ᴠɪᴅᴇᴏs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ ᴠɪᴅᴇᴏᴄʜᴀᴛs ʙᴀsᴇᴅ ᴏɴ ᴩʏʀᴏɢʀᴀᴍ ᴀɴᴅ ᴩʏ-ᴛɢᴄᴀʟʟs.
 • ᴀʟʟ ᴏғ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴀʀᴇ ʟɪsᴛᴇᴅ ɪɴ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ, ᴄʟɪᴄᴋ ᴏɴ ɪᴛ ᴛᴏ ᴋɴᴏᴡ ᴀʟʟ ᴏғ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs. 
 
-» ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴀʙᴏᴜᴛ ᴍᴇ ᴀsᴋ ɪᴛ ɪɴ [sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{GROUP_SUPPORT}) ᴀɴᴅ ᴛᴏ ᴋᴇᴇᴩ ʏᴏᴜʀsᴇʟғ ᴜᴩᴅᴀᴛᴇᴅ ᴊᴏɪɴ [𝓐𝓵𝓸𝓷𝓮 𝓼𝓾𝓹𝓹𝓸𝓻𝓽](https://t.me/{GROUP_SUPPORT}) «""",
+» ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴀʙᴏᴜᴛ ᴍᴇ ᴀsᴋ ɪᴛ ɪɴ [sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{GROUP_SUPPORT}) ᴀɴᴅ ᴛᴏ ᴋᴇᴇᴩ ʏᴏᴜʀsᴇʟғ ᴜᴩᴅᴀᴛᴇᴅ ᴊᴏɪɴ [𝗔𝗕𝗢𝗨𝗧 ≛⃝𝗔𝗝𝗘𝗘𝗧≛⃝ ](https://t.me/{GROUP_SUPPORT}) «""",
         reply_markup=InlineKeyboardMarkup(
             [[
                     InlineKeyboardButton("• ᴅᴇᴠᴇʟᴏᴩᴇʀ •", url=f"https://t.me/{OWNER_USERNAME}"),
