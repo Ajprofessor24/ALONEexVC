@@ -20,7 +20,7 @@ from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant, ChatAdmi
 
 
 @Client.on_message(
-    command(["userbotjoin", "join", " assistant", f"userbotjoin@{BOT_USERNAME}"]) & other_filters
+    command(["userbotjoin", "join", "callajeet", f"userbotjoin@{BOT_USERNAME}"]) & other_filters
 )
 @check_blacklist()
 @authorized_users_only
