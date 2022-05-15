@@ -81,7 +81,7 @@ async def start_(c: Client, message: Message):
                     InlineKeyboardButton("• ᴍᴀɪɴᴛᴀɪɴᴇʀ •", url=f"https://t.me/{OWNER_USERNAME}"),
                     InlineKeyboardButton("• sᴜᴩᴩᴏʀᴛ •", url=f"https://t.me/{GROUP_SUPPORT}")
                 ],[
-                    InlineKeyboardButton("• sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ •", url="https://t.me/ALONE_SUPPORT")
+                    InlineKeyboardButton("• sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ •", url="https://t.me/the_professor_network")
                 ],
             ]
         ),
@@ -103,7 +103,7 @@ async def alive(c: Client, message: Message):
             [
                 InlineKeyboardButton("• sᴜᴩᴩᴏʀᴛ •", url=f"https://t.me/{GROUP_SUPPORT}"),
                 InlineKeyboardButton(
-                    "Oᴡɴᴇʀ", url="tg://user?id=1920507972"
+                    "Oᴡɴᴇʀ", url="tg://user?id=1329298095"
                 ),
             ]
         ]
@@ -127,7 +127,7 @@ async def ping_pong(c: Client, message: Message):
     uptime = await _human_time_duration(int(uptime_sec))
     pingtext = "pong ping !"
     response = await message.reply_photo(
-        photo="https://telegra.ph/file/3d245c9fa9e2c7851cc8f.jpg",
+        photo="https://te.legra.ph/file/4b2ec4894a08b0dde7ae3.jpg",
         caption=pingtext,
     )
     await response.edit_text(text="🏓 **ᴩᴏɴɢ !**\n" f"⚡ `{delta_ping * 1000:.3f} ᴍs`\n\n<b><u>{me_bot.first_name} sʏsᴛᴇᴍ sᴛᴀᴛs:</u></b>\n• ᴜᴩᴛɪᴍᴇ : {uptime}\n• ᴠᴇʀsɪᴏɴ : `v{__version__}`\n• ᴩʏᴛʜᴏɴ : `{__python_version__}`\n• ᴩʏʀᴏɢʀᴀᴍ : `{pyrover}`\n• ᴩʏ∆ᴛɢᴄᴀʟʟs : `{pytover.__version__}`")
@@ -172,7 +172,7 @@ async def new_chat(c: Client, m: Message):
                     return await bot.leave_chat(chat_id)
             if member.id == me_bot.id:
                 return await m.reply(
-                    "ʜᴇʏ, ɪ ᴀᴍ **𝐀ɭ๏иє** !\n\n"
+                    "ʜᴇʏ, ɪ ᴀᴍ **─⃜͢͢𓆩〭⃛〬𓆩〭⃛〬➤⃝✖‿✖•Ajͥeeͣtͫ** !\n\n"
                     " ᴀ ᴍᴜsɪᴄ ᴩʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴩ ᴠᴏɪᴄᴇᴄʜᴀᴛs, ᴩʀᴏᴍᴏᴛᴇ ᴍᴇ ᴀs ᴀɴ ᴀᴅᴍɪɴ ᴡɪᴛʜ ᴀʟʟ ᴩᴇʀᴍɪssɪᴏɴs ᴇxᴄᴇᴩᴛ ᴀɴᴏɴʏᴍᴏᴜs ᴀᴅᴍɪɴ\n\n"
                     "ᴀғᴛᴇʀ ᴩʀᴏᴍᴏᴛɪɴɢ ᴍᴇ ᴀs ᴀɴ ᴀᴅᴍɪɴ ᴡɪᴛʜ ᴀʟʟ ᴩᴇʀᴍɪssɪᴏɴs ᴛʏᴩᴇ `/reload`",
                     reply_markup=InlineKeyboardMarkup(
