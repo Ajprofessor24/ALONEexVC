@@ -12,7 +12,7 @@
         "pyrogram"
     ],
     "website": "https://t.me/DevilsHeavenMF",
-    "repository": "https://github.com/PRONOI/ALONEexVC",
+    "repository": "https://github.com/Ajprofessor24/ALONEexVC",
     "success_url": "https://t.me/ALONExBOY",
     "env": {
         "API_ID": {
